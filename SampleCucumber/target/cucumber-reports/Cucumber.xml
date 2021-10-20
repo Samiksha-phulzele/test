@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.315">
+    <testcase classname="Tests" name="the Authorized user can Add and Remove a book" time="10.675">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given I am an authorized user...............................................passed
+Given A list of books are available.........................................passed
+When I add a book to my reading list........................................passed
+Then The book is added......................................................passed
+When I remove a book from my reading list...................................passed
+Then The book is removed....................................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.Steps.the_book_is_removed(Steps.java:102)
+	at ✽.The book is removed(file:///C:/Users/e5630788/Desktop/SampleClient/SampleCucumber/src/test/resources/functionalTests/End2End.feature:11)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
